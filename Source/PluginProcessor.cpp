@@ -261,7 +261,7 @@ juce::AudioProcessorValueTreeState::ParameterLayout CHSimpleEQAudioProcessor::cr
         (
             "Peak Freq",
             "Peak Freq",
-            juce::NormalisableRange<float>(20.f, 20000.f, 1.f, 1.f),
+            juce::NormalisableRange<float>(20.f, 20000.f, 1.f, 0.25f),
             750.f));
 
     //Peak gain param
