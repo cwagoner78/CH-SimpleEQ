@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="ygS4vm" name="CH-SimpleEQ" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginManufacturer="CH-Sound"
+              pluginCode="CHSQ">
   <MAINGROUP id="GCXbTo" name="CH-SimpleEQ">
     <GROUP id="{21B94CCF-B963-5B9C-7345-9EA512D003BC}" name="Source">
       <FILE id="cF6Qvb" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -23,6 +24,7 @@
     <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
@@ -48,6 +50,7 @@
         <MODULEPATH id="juce_graphics" path="D:/JUCE/modules"/>
         <MODULEPATH id="juce_gui_basics" path="D:/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="D:/JUCE/modules"/>
       </MODULEPATHS>
     </VS2022>
   </EXPORTFORMATS>
